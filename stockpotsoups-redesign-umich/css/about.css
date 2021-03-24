@@ -1,0 +1,432 @@
+.updatepic{
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+p{
+  line-height: 150%;
+}
+
+.mainbox p{
+  font-size: 12px;
+}
+
+h5{
+  font-size: 17px;
+}
+
+.textbox p{
+  -ms-transform: translateY(-13px);
+  transform: translateY(-13px);
+}
+
+
+.updatepic{
+width: 200px;
+}
+
+.openingblock{
+  font-size: 12px;
+}
+
+.textbox p{
+  font-size: 12px;
+}
+.midcard p{
+  font-size: 12px;
+}
+
+.bonebrothpic{
+  width: 200px;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  -ms-transform: translateY(-13px);
+  transform: translateY(-13px);
+}
+
+.midcard h5{
+  text-align: center;
+}
+
+.bonebroth{
+  text-align: center;
+}
+
+
+.abouttitle{
+  text-align: center;
+}
+
+.openingblock{
+  text-align: left;
+}
+
+.container-n{
+  display: grid;
+  grid-template-columns: 1fr 150px 150px 1fr;
+  grid-template-rows: 40px 520px 100px 240px 270px 100px 220px 310px 100px 445px 100px 235px 155px 100px;
+  grid-gap: 15px;
+}
+
+.abouttitle{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.openingblock{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+#textbox{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+#news{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start:5;
+  grid-row-end: 6;
+}
+
+#textbox2{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 7;
+  grid-row-end: 8;
+}
+
+#news2{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 8;
+  grid-row-end: 9;
+}
+
+#textbox3{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 12;
+  grid-row-end: 13;
+}
+
+#news3{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 13;
+  grid-row-end: 14;
+}
+
+#bonebroth{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 10;
+  grid-row-end: 11;
+}
+
+
+footer{
+  grid-column-start: 1;
+  grid-column-end: -1;
+  grid-row-start: 16;
+  grid-row-end: 17;
+}
+
+nav{
+  width: 100%;
+}
+
+@media only screen and (min-width: 700px) {
+
+.container-n{
+  display: grid;
+  grid-template-columns: 200px 1fr 200px 200px 200px 1fr;
+  grid-template-rows: 75px 435px 370px 375px 520px 245px 100px 100px;
+  grid-gap: 15px;
+}
+
+
+.openingblock{
+  font-size: 14px;
+}
+
+.textbox p{
+  font-size: 14px;
+}
+
+.midcard p{
+  font-size: 14px;
+}
+
+#myLinks p{
+  font-size: 18px;
+}
+
+#bonebrothpic{
+  -ms-transform: none;
+  transform: none;
+}
+
+h5{
+  font-size: 30px;
+}
+
+#bonebrothpic{
+  width: 300px;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+#bonebroth{
+  -ms-transform: translateY(30px);
+  transform: translateY(30px);
+}
+
+.flip-card{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+footer{
+  grid-column-start: 1;
+  grid-column-end: -1;
+  grid-row-start: 7;
+  grid-row-end: 8;
+}
+
+nav{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: -1;
+}
+
+#bonebroth{
+grid-column-start: 3;
+grid-column-end: 6;
+grid-row-start: 5;
+grid-row-end: 6;
+}
+
+.updatepic{
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+.abouttitle{
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.openingblock{
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.abouttitle{
+  font-size: 70px;
+}
+
+#textbox{
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+#news{
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+#textbox2{
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+#news2{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+#textbox3{
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+
+#news3{
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+
+nav{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: -1;
+}
+
+
+footer{
+  grid-column-start: 1;
+  grid-column-end: -1;
+  grid-row-start: 8;
+  grid-row-end: 9;
+}
+
+
+}
+
+@media only screen and (min-width: 1040px) {
+
+  .container-n{
+    display: grid;
+    grid-template-columns: 200px 1fr 266.666px 266.666px 266.666px 1fr;
+    grid-template-rows: 75px 350px 302px 272px 493px 200px 100px 100px;
+}
+
+.updatepic{
+  width: auto;
+  height: 202px;
+}
+
+.openingblock{
+  -ms-transform: none;
+  transform: none;
+}
+
+.moveup{
+  -ms-transform: none;
+  transform: none;
+}
+
+.bonebrothpic{
+  -ms-transform: none;
+  transform: none;
+}
+
+.openingblock{
+  -ms-transform: none;
+  transform: none;
+}
+
+p{
+  font-size: 18px;
+}
+
+#bonebroth{
+grid-column-start: 3;
+grid-column-end: 6;
+grid-row-start: 5;
+grid-row-end: 6;
+}
+
+.updatepic{
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+.abouttitle{
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.openingblock{
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.abouttitle{
+  font-size: 70px;
+}
+
+#textbox{
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+#news{
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+#textbox2{
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+#news2{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+#textbox3{
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+
+#news3{
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+
+nav{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: -1;
+}
+
+
+footer{
+  grid-column-start: 1;
+  grid-column-end: -1;
+  grid-row-start: 8;
+  grid-row-end: 9;
+}
+
+}
